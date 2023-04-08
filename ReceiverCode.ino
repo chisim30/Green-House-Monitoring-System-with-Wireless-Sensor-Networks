@@ -32,7 +32,7 @@ void collectData(String s) {
     if (s.charAt(i) == ' ') {
       if (data != "") {
         switch (count) {
-          case 0:
+          case 0: 
             moisture = data;
             count += 1;
             break;
